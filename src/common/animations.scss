@@ -1,0 +1,46 @@
+@mixin keyframes($animation-name) {
+    @-webkit-keyframes #{$animation-name} {
+        @content;
+    }
+    @-moz-keyframes #{$animation-name} {
+        @content;
+    }  
+    @-ms-keyframes #{$animation-name} {
+        @content;
+    }
+    @-o-keyframes #{$animation-name} {
+        @content;
+    }  
+    @keyframes #{$animation-name} {
+        @content;
+    }
+}
+
+@mixin animation($str) {
+  -webkit-animation: #{$str};
+  -moz-animation: #{$str};
+  -ms-animation: #{$str};
+  -o-animation: #{$str};
+  animation: #{$str};      
+}
+
+@mixin transform($transforms) {
+	-webkit-transform: $transforms;
+	-moz-transform: $transforms;
+	-ms-transform: $transforms;
+	transform: $transforms;
+}
+
+@mixin transform-origin($transforms) {
+	-webkit-transform-origin: $transforms;
+	-moz-transform-origin: $transforms;
+	-ms-transform-origin: $transforms;
+	transform-origin: $transforms;
+}
+
+@mixin clip-path($path) {
+	-webkit-clip-path: $path;
+	-moz-clip-path: $path;
+	-ms-clip-path: $path;
+	clip-path: $path;
+}
