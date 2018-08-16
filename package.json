@@ -9,6 +9,8 @@
     "gatsby-plugin-google-analytics": "^1.0.31",
     "gatsby-plugin-react-helmet": "^2.0.10",
     "gatsby-plugin-sass": "^1.0.26",
+    "gatsby-source-filesystem": "^1.5.39",
+    "gatsby-transformer-json": "^1.0.20",
     "gh-pages": "^1.2.0",
     "react-helmet": "^5.2.0",
     "react-svg": "^4.1.1"
